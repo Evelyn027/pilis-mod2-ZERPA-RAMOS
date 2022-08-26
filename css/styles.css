@@ -1,0 +1,175 @@
+*{
+     margin: 0;
+    padding: 0; 
+    /* box-sizing: border-box; */
+    /* background: #ffa600; */
+}
+
+body{
+    background: #ffa600;
+    color: #000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.TITULO-PRINCIPAL p{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor{
+    width: 90%;
+ /*     max-width: 1500px; */
+    border: 30px solid #FFFFFF;
+    margin: auto;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    border-style:double;
+}
+
+.contenedor > div {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    background: #2f89fc ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .25);
+}
+
+/* Quitar el subrayado a los botones */
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar a{
+    color: #ffffff;
+}
+
+#navbar ul{
+    list-style: none;
+    font-size: 25px;
+    padding-top: 0.5cm;
+    font-weight: 400;
+    float: left;
+}
+
+/* mover los li al costado uno de otro */
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 30px;
+    text-align:center;
+}
+
+#navbar ul li a:hover{
+    background: #2f89fc;
+    border-style: solid;
+}
+
+/* LOGO */
+/* .circulo{
+    width: 120px;
+    height: 120px;
+    background-color: #002fff;
+    border-radius: 100%;
+    float: right;
+    margin-top: 0.7cm; 
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+}
+
+.circulo > .imagen{
+    width: 100%;
+    height: 100%;
+} */
+
+h1{
+    text-align: center;
+    text-shadow: #2f89fc;
+    text-decoration-color: aqua;
+    text-size-adjust:inherit;
+    font-size: 45px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.contenedor .ImagenOrg{
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+.contenedor .ImagenOrg .ImgOrg{
+    height: 100%;
+ width: 100%;
+ object-fit:contain;
+}
+
+.expo1{
+   /*  width: 600px;
+    height: 300px;
+    position:relative;
+    margin-left: 18cm;  */
+    height: 88%;
+    width: 88%;
+    object-fit: contain;
+    margin-left: 3cm;   
+}
+
+/* Contact */
+.contenedor .RContacto{
+
+    font-size: 35px;
+}
+
+.contenedor .RContacto .contact-form{
+    width: 100%;
+    padding: 5px;
+}
+
+form .form-group{
+    margin-bottom: 0.3rem;
+}
+
+form .form-control{
+   /*  width:max-content;
+    height: max-content; */
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+    padding: 1px;
+    font-size: 20px;
+    line-height: 1.7;
+    border: none;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 35px;
+    padding: 14px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .btn-light {
+    background: #2EC4B6;
+    border: 1px solid #2EC4B6;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .btn-light:hover {
+    background: #fff;
+    border: 1px solid #2EC4B6;
+    color: #2EC4B6;
+  }
+
