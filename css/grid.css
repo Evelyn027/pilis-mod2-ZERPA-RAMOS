@@ -49,9 +49,8 @@
 }
 
 .contenedor .ImagenT .imagen2{
-   
 
-     height: 100%;
+height: 100%;
  width: 80%;
  object-fit:cover; 
  border-radius: 20%;
@@ -82,10 +81,6 @@
     height:100%;
     width:100%;
     position:absolute;
-    /* margin-top: 2.5cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-bottom: 1cm; */
     justify-items: center;
     align-items: center;
 } 
@@ -128,17 +123,6 @@
     grid-area:Clima;
 }
 
-/* clima */
-
-.Clima{
-    text-align:center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap:10px;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
