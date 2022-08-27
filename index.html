@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/grid.css">
     <title>  eXPO JUY 2022</title>
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <div class="TITULO-PRINCIPAL">
@@ -20,9 +20,9 @@
             <nav id="navbar">
                 <div class="container">
                     <ul>
-                        <li><a href="#about">Nosotros</a></li>
-                        <li><a href="#evento">El Evento</a></li>
-                        <li><a href="#Registrate">Registrate</a></li>
+                        <li><a href="./index.html#Organiz">Nosotros</a></li>
+                        <li><a href="./index.html#Subt">El Evento</a></li>
+                        <li><a href="./index.html#RConta">Registrate</a></li>
                     </ul>
                    <!--  <div class="circulo">
                         <img src="./logo1.png" class="imagen">
@@ -40,56 +40,79 @@
             <h1>Expo Juy</h1><br>
             <p>Es un evento y una oportunidad muy importante donde la provincia puede mostrar su potencial y afianzar sus vínculos comerciales”, </p>
         </div>
-        <div class="ImagenT">4
+        <div class="ImagenT">
            <img src="./artesania.jpg" class="imagen2">
         </div>
-        <div class="VideoSub">5 <br>
+        <div class="VideoSub"> <br>
             <br>
             <br>
             
             <iframe width="560" height="315" src="https://www.youtube.com/embed/E4RPAB1DVlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         </div>
-        <div class="Subtitulo">6
-            <br>
+        <div class="Subtitulo" id="Subt"><h1>Evento</h1>
             <p>A fin de fortalecer a empresas jujeñas e impulsar nuevos canales comerciales, el Ministerio de Desarrollo Económico y Producción montó stand´s en la Expo-JUY donde se exhiben sus productos, los emprendedores que están surgiendo y sobresaliendo en nuestra Provincia. los emprendedores y productores podrán tener el beneficio de cobrar con tarjeta de débito y crédito. “Esto no solo es un beneficio para el consumidor sino con los productores para que puedan inscribirse en el beneficio de vender con tarjetas de credito y debito.</p>
         </div>
-        <div class="Organizadores">7
+        <div class="Organizadores" id="Organiz">
             <br>
             <h1>ORGANIZADORES</h1>
             <p>Esse exercitation pariatur sint velit dolor fugiat ad non veniam anim non elit. Irure eu excepteur in id do ipsum voluptate occaecat tempor aliquip id et proident anim. Veniam occaecat laborum minim Lorem et commodo.</p>
         </div>
-        <div class= "ImagenOrg">8
+        <div class= "ImagenOrg">
             <img src="./15-expo-2jpg.jpg" class="ImgOrg">
         </div>
-        <div class= "Info">9
+        <div class= "Info">
             <br><br>
             <H1>REGISTRO</H1>
             <p>Sumate al Evento para potenciar el comercio local.</p><br>
             <p>Luego te Contactaremos</p>
         </div>
-        <div class= "RContacto">
+        
+        <div class= "RContacto" id="RConta">    
                 <div  class="contact-form">
-                    <form action="">
+                    <form id="formulario">
                         <div class="form-group">
                           <label for="name">Nombre</label>
                           <input id="name" class="form-control" type="text">
                         </div>
                         <div class="form-group">
                           <label for="name">Email</label>
-                          <input class="form-control" type="email">
+                          <input id="email" class="form-control" type="email">
                         </div>
                         <div class="form-group">
                           <label for="name">Mensaje</label>
                           <textarea class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
                         </div>
-                        <button class="btn btn-light">Enviar</button>
+                        <button id="enviar" class="btn btn-light">Enviar</button>
                       </form>
                 </div>
             </div>
-        <div class="Clima">11</div>      
+
+        <div class="Clima">
+            <div id="caja1">
+                <h1 id="temperatura-valor"></h1>
+                <h1 id="temperatura-descripcion"></h1>
+            </div>
+            <div id="caja2">
+                <h2 id="ubicacion"></h2>
+                <img id="icono-animado" src="" alt="" height="128" width="128">
+            </div>
+            <div id="caja3">
+                <h3>Veloc. del Viento</h3>
+                <h1 id="viento-velocidad"></h1>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.666882249007!2d-65.33348658556866!3d-24.183412790740977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661299808826!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            <div id="WhatsApp">
+                <a href="https://www.whatsapp.com" target="_blank"> <img src="./img/WhatsAPP.png" alt="Enlace a Whatsapp" class="Imglink"> </a>
+              </div>   
+
+        </div>
+           
     </div>
 
+    <script src="main.js"></script>
 
 </body>
 </html>

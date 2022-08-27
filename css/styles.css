@@ -173,3 +173,34 @@ form .form-control{
     color: #2EC4B6;
   }
 
+/* clima */
+
+
+
+#caja1 {
+    background-color: rgba(0,0,0,0.767);
+    color:azure;    
+}
+
+#caja2 {
+    background-color: rgb(58, 86, 211);
+    color:azure;    
+}
+#caja3 {
+    background-color: #2ab2ea;
+    color:azure;    
+}
+
+#mapa iframe {
+    display:inline-block;
+    padding-right: 15cm;
+    width: 40%;
+    height: 60%;
+    margin: 0;
+  }
+
+.contenedor .Clima .Imglink{
+    height: 150px;
+    width: 180px;
+    
+}
